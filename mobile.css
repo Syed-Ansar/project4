@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    scroll-behavior: smooth;
+    background-color: hsl(233, 47%, 7%);
+    padding: 50px 30px;
+    height: 100%;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+  .box1 {
+    background-color: hsl(244, 38%, 16%);
+  }
+  .box1 p {
+    padding: 0px 65px;
+    padding-bottom: 8px;
+  }
+  .box1 h1 {
+    padding: 10px 44px;
+  }
+  .box2 {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 300px;
+  }
+  .box1 .heading {
+    line-height: 1.4;
+    text-align: center;
+    margin: 0px 65px 0px 75px;
+  }
+  .box2 img {
+    border-radius: 15px;
+    background-size: cover;
+    opacity: 0.3;
+  }
+  .stats {
+    flex-direction: column;
+  }
+  .stats h2 {
+    margin-bottom: 2px;
+  }
+  .stats h5 {
+    padding-bottom: 15px;
+  }
+}
